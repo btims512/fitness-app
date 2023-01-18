@@ -9,7 +9,12 @@ const HeroBanner = () => (
     position="relative"
     p="20px"
   >
-    <Typography color="#FF2625" fontWeight="600" fontSize="36px">
+    <Typography
+      color="#FF2625"
+      fontWeight="600"
+      fontSize="36px"
+      sx={{ fontSize: { lg: "54px", xs: "36px" } }}
+    >
       David's WorkoutDB
     </Typography>
     <Typography
@@ -18,11 +23,11 @@ const HeroBanner = () => (
       mb="23px"
       mt="30px"
     >
-      Sweat, Smile <br />
-      And Repeat
+      Sweat. Smile. <br />
+      Repeat.
     </Typography>
-    <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
-      Check out the most effective exercises personalized to you
+    <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px" className="p-tag">
+      Check out the most effective exercises personalized just for you.
     </Typography>
     <Stack>
       <a
