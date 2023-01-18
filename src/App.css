@@ -145,7 +145,7 @@ body {
   }
 }
 
-@media screen and (max-width: 844px ) and (min-width: 391px) {
+@media screen and (max-width: 844px ) and (min-width: 500px) {
   .hero-banner-img {
     display: block;
     width: 400px;

@@ -11,16 +11,19 @@ const Footer = () => (
       px="40px"
       pt="24px"
     >
-      <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
+      <img src={Logo} alt="logo" style={{ width: "80px", height: "80px" }} />
     </Stack>
     <Typography
       variant="h5"
-      sx={{ fontSize: { lg: "28px", xs: "20px" } }}
+      sx={{ fontSize: { lg: "20px", xs: "18px" } }}
       mt="41px"
       textAlign="center"
       pb="40px"
+      fontFamily="cursive"
+      marginTop="20px"
+      marginLeft="10px"
     >
-      Made with ❤️ by JavaScript Mastery
+      Made for David
     </Typography>
   </Box>
 );
